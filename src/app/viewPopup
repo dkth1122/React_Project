@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>팝업 예제</title>
+    <style>
+        /* 팝업 스타일 */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+        }
+
+        /* 모달 백그라운드 스타일 */
+        .modal-bg {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 9998;
+        }
+    </style>
+</head>
+<body>
+    <button id="openBtn">팝업 열기</button>
+
+    <!-- 팝업 백그라운드 -->
+    <div id="modalBg" class="modal-bg"></div>
+
+    <!-- 팝업 내용 -->
+    <div id="popup" class="popup">
+        <h2>안녕하세요!</h2>
+        <p>팝업 내용입니다.</p>
+        <button id="closeBtn">닫기</button>
+    </div>
+
+    <script>
+        const openBtn = document.getElementById('openBtn');
+        const closeBtn = document.getElementById('closeBtn');
+        const popup = document.getElementById('popup');
+        const modalBg = document.getElementById('modalBg');
+
+        // 팝업 열기 버튼 클릭 시
+        openBtn.addEventListener('click', () => {
+            popup.style.display = 'block';
+            modalBg.style.display = 'block';
+        });
+
+        // 팝업 닫기 버튼 클릭 시
+        closeBtn.addEventListener('click', () => {
+            popup.style.display = 'none';
+            modalBg.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

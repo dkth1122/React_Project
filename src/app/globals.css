@@ -1,0 +1,444 @@
+@font-face {
+    font-family: 둥근모;
+    src: url(/DungGeunMo.ttf);
+}
+*{
+    font-family: 둥근모;
+}
+
+body{
+    position: relative;
+    background-color: rgb(255, 240, 247);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+ol{
+    list-style: none;
+    margin:0%;
+    padding: 0px 60px;
+}
+
+
+.headerAll{
+    width: 99%;
+    height: 50px;
+    padding: 10px;
+    margin-top: -10px;
+    background-color: white;
+    box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.headerLogo{
+    float: left;
+}
+
+.headerDiv{
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.headerLogo > a{
+    font-size: 32px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.headerTopBar{
+    float: right;
+}
+
+ .searchAll, .heartAll{
+    padding: 200px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.plusSquareAll{
+    padding: 150px 0px;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+}
+
+.hashTagLabel{
+    margin-top: 15px;
+}
+
+.userAll{
+    padding: 50px 0px;
+    width: 100%;
+    height: auto;
+}
+
+/* 메인 홈페이지 영역 */
+.homeContainer{
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.homeAll{
+    padding: 30px 0px;
+    margin: 0px auto;
+    width: 1500px;
+    height: auto;
+}
+
+.hashTagAll{
+    margin: 0px 0px 0px 20px;
+    color: rgb(0, 17, 255);
+}
+
+.postContent{
+    margin: 20px 20px;
+}
+
+.postTitle{
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+/* 프로필 영역 */
+.miniProfileAll{
+    float: left;
+    width: 50%;
+    width: 400px;
+    height: 1000px;
+    margin : 50px 0px;
+    padding: 30px;
+    background-color: white;
+    font-size: 18px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.miniProfile{
+    border: 3px solid transparent; /* 테두리 스타일 설정, 투명하게 설정 */
+    border-image: linear-gradient(to right, #63f5ed, #a27eff, #ffa3d9); /* 선형 그라데이션 테두리 */
+    border-image-slice: 1; /* 테두리 이미지 크기 설정 */
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.profileImg{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+table{
+    margin: 10px auto;
+}
+
+th{
+    background-color: rgb(255, 209, 247);
+}
+
+td{
+    background-color: white;
+}
+
+.nonList{
+    text-decoration: none;
+    color: #a27eff;
+}
+
+.joinInput{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.profileInfo{
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+/* 게임 영역 */
+#myGameAll {
+    width: 100%; /* 고정된 너비 값 유지 */
+    height: 300px; /* 고정된 높이 값 유지 */
+    margin: 0 auto;
+}
+
+#canvas {
+    width: 100%; /* 캔버스를 부모 요소에 맞게 가득 채우도록 설정 */
+    height: 100%; /* 캔버스를 부모 요소에 맞게 가득 채우도록 설정 */
+    max-width: 100%; /* 가로 최대 너비 설정 */
+    max-height: 100%; /* 세로 최대 높이 설정 */
+    background-image: url("/Line.png");
+}
+
+#pauseMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none; /* 초기에는 숨김 */
+}
+
+/* 랭킹 영역 */
+.rank{
+    width: 397px;
+    height: 760px;
+    margin-top: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid transparent; /* 테두리 스타일 설정, 투명하게 설정 */
+    border-image: linear-gradient(to right, #63f5ed, #a27eff, #ffa3d9); /* 선형 그라데이션 테두리 */
+    border-image-slice: 1; /* 테두리 이미지 크기 설정 */
+    font-size: 24px;
+}
+
+.rankImg{
+    width: 300px;
+    height: auto;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 10px;
+}
+
+.rankTitle{
+    text-align: center;
+}
+
+.rankProfileImg{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.thumsup{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: -7px;
+    margin-right: 10px;
+}
+
+.rankuserId{
+    display: inline-block;
+    width: 80px;
+    margin-left: 10px;
+}
+
+/* 댓글 /뷰 페이지 */
+.popup { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); /* 회색 배경을 갖는 반투명 배경 */ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    z-index: 999; /* 다른 요소 위에 나타나도록 z-index 설정 */ 
+
+  } 
+  
+  .popup-content { 
+    width: 1200px;
+    height: 800px;
+    background-color: #ffffff; 
+    border-radius: 4px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    overflow: auto; 
+    cursor : pointer; 
+  } 
+
+  .popImg{
+    width: 600px;   
+    height: 800px;
+    float: left;
+    border: 1px solid black;
+    
+  }
+
+  .closePop{
+    text-decoration: none;
+    display: inline;
+    float: right;
+  }
+  
+   /* 팔로우 버튼 스타일 */
+   /* Popup.css */
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .popup-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .popImg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .closePop {
+    position: absolute;
+    top: -4px;
+    right: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-nickname {
+    flex: 0 0 auto; /* 유연한 크기 조절 비활성화 */
+    display: inline-block;
+    position: relative;
+    right: 600px;
+    top: 360px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .popProfileImg{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+  }
+  
+  .followBtn {
+    background: transparent;
+    border: 1px solid #3897f0;
+    color: #3897f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post-content {
+    position: relative;
+    margin-top: 380px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .comment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-item {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .comment-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+
+  }
+  
+  .commentComm{
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  
+  .add-comment-btn {
+    background: linear-gradient(to right, #63f5ed, #a27eff, #ffa3d9);
+    -webkit-background-clip: text;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .comment-form{
+    margin-top: 25px;
+  }
+
+  .xMark{
+    margin-left: 5px;
+    margin-bottom: -4px;
+  }
+
+  .popCommUid{
+    display: inline-block;
+    margin-left: -9px;
+  }
+
+  /* 북마크 */
+  .bookmark{
+    margin-bottom: -10px;
+    width: 20px;
+    height: 30px;
+  }
+
+  input[type="text"] {
+    border: 1px solid transparent; /* 테두리 스타일 설정, 투명하게 설정 */
+    border-image: linear-gradient(to right, #63f5ed, #a27eff, #ffa3d9); /* 선형 그라데이션 테두리 */
+    border-image-slice: 1; /* 테두리 이미지 크기 설정 */
+    border-radius: 5px; /* border 모서리를 둥글게 만들 수 있습니다. */
+    padding: 5px; /* 입력 필드 내용과 border 사이의 간격을 조정할 수 있습니다. */
+  }
+  input[type="text"]:focus {
+    outline: none; /* 포커스된 상태에서의 기본 포커스 효과를 제거합니다. */
+    border: 1px solid transparent; /* 테두리 스타일 설정, 투명하게 설정 */
+    box-shadow: 0 0 5px #007bff; 
+    border-image: linear-gradient(to right, #63f5ed, #a27eff, #ffa3d9); /* 선형 그라데이션 테두리 */
+    border-image-slice: 1; /* 테두리 이미지 크기 설정 */
+    border-radius: 5px; /* border 모서리를 둥글게 만들 수 있습니다. */
+    padding: 5px; /* 입력 필드 내용과 border 사이의 간격을 조정할 수 있습니다. */
+  }
+
+  .hashTagRemoveMark{
+    margin-bottom: -4px;
+  }
