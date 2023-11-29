@@ -1,3 +1,6 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=40E0D0&height=200&section=header&text=&fontSize=50&fontColor=fff" />
+
+
 
 ![다운로드 (1)](https://github.com/dkth1122/projectReact/assets/134511884/2df5a939-bb07-4080-a9cb-c32300d47f01)
 
@@ -65,3 +68,6 @@ https://github.com/dkth1122/React_Project/blob/3c67f2caf178815c445b008d96f04d766
 
 </ul>
 <br>
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=40E0D0&height=200&section=footer&text=&fontSize=50&fontColor=fff" />
