@@ -36,34 +36,33 @@
 <ul>
 <li>백엔드 구현</li>
 https://github.com/dkth1122/React_Project/tree/dcb232ae491bd66ff938fb605fa72db5b91111ec/src/app/api
-<br>
+<br><br>
 <li>로그인</li>
 https://github.com/dkth1122/React_Project/blob/2fa95a193ff7de0568bc93158a7558d9861d82cd/src/app/login/page.js
-<br>
+<br><br>
 <li>회원 가입</li>
 https://github.com/dkth1122/React_Project/blob/eec9eb46bd2682c39ce108181ac137c3c17486ee/src/app/join/page.js
-<br>
+<br><br>
 <li>포스트 작성  - 해쉬 태그, 파일 첨부 구현</li>
 https://github.com/dkth1122/React_Project/blob/1dcc8fabf64cf1993e6e48891b83d5a3faa9e4e3/src/app/plusSquare/page.js
-<br>
+<br><br>
 <li>댓글 작성 </li>
 <li>팔로우 기능</li>
 https://github.com/dkth1122/React_Project/blob/1dcc8fabf64cf1993e6e48891b83d5a3faa9e4e3/src/app/viewPopup.js
-<br>
+<br><br>
 <li>검색 시스템 - 해쉬 태그, 닉네임, 유저 아이디로 검색 가능</li>
 https://github.com/dkth1122/React_Project/blob/1dcc8fabf64cf1993e6e48891b83d5a3faa9e4e3/src/app/search/page.js
-<br>
+<br><br>
 <li>프로필 수정 - 바이오, 닉네임, 프로필 사진 수정 가능</li>
 https://github.com/dkth1122/React_Project/blob/571d2ce5a0906915afed922eb776affe1a4d51e6/src/app/profile/page.js
-<br>
+<br><br>
 <li>좋아요 기능 - 좋아요, 좋아요 누른 피드 확인 가능</li>
 https://github.com/dkth1122/React_Project/blob/dcb232ae491bd66ff938fb605fa72db5b91111ec/src/app/heart/page.js
-<br>
+<br><br>
 <li>미니게임</li>
   
   ![예시 GIF](game.gif)
 
-<br>
 <li>랭킹 시스템</li>
 </ul>
 <br>
