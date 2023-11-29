@@ -64,10 +64,11 @@ https://github.com/dkth1122/React_Project/blob/dcb232ae491bd66ff938fb605fa72db5b
 <li>미니게임, 랭킹 시스템</li>
 https://github.com/dkth1122/React_Project/blob/3c67f2caf178815c445b008d96f04d7664282de5/src/app/GamePart.js
 <br><br>
+</ul>
 
   ![예시 GIF](game.gif)
 
-</ul>
+
 <br>
 <br>
 
