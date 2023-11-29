@@ -46,8 +46,7 @@ https://github.com/dkth1122/React_Project/blob/eec9eb46bd2682c39ce108181ac137c3c
 <li>포스트 작성  - 해쉬 태그, 파일 첨부 구현</li>
 https://github.com/dkth1122/React_Project/blob/1dcc8fabf64cf1993e6e48891b83d5a3faa9e4e3/src/app/plusSquare/page.js
 <br><br>
-<li>댓글 작성 </li>
-<li>팔로우 기능</li>
+<li>댓글 작성, 팔로우 기능</li>
 https://github.com/dkth1122/React_Project/blob/1dcc8fabf64cf1993e6e48891b83d5a3faa9e4e3/src/app/viewPopup.js
 <br><br>
 <li>검색 시스템 - 해쉬 태그, 닉네임, 유저 아이디로 검색 가능</li>
