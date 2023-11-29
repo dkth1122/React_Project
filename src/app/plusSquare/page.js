@@ -115,7 +115,7 @@ export default function PlusSquare() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // 먼저 필요한 데이터를 수집합니다.
+    // 먼저 필요한 데이터를 수집
     const contents = e.target.elements.contents.value;
   
 
