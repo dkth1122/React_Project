@@ -139,11 +139,10 @@ export default function PlusSquare() {
       if (response.ok) {
         // 업로드 성공 처리
         console.log('업로드 성공:', response.statusText);
-        // 업로드가 성공하면 사용자에게 알림을 표시하거나 다른 동작을 수행할 수 있습니다.
+        // 업로드가 성공하면 사용자에게 알림을 표시하거나 다른 동작을 수행
       } else {
         // 업로드 실패 처리
         console.error('업로드 실패:', response.status);
-        // 실패한 경우 사용자에게 에러 메시지를 표시하거나 다른 조치를 취할 수 있습니다.
       }
     } catch (error) {
       console.error('업로드 오류:', error);
