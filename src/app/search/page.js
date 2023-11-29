@@ -39,7 +39,7 @@ export default function Search() {
   };
 
   const fetchImages = () => {
-    // 검색어를 API에 전달하여 모든 검색 결과를 가져옵니다.
+    // 검색어를 API에 전달하여 모든 검색 결과를 가져옴
     fetch(`/api/search?param1=${searchQuery}`)
       .then((response) => {
         if (!response.ok) {
