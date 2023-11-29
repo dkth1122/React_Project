@@ -58,10 +58,10 @@ https://github.com/dkth1122/React_Project/blob/571d2ce5a0906915afed922eb776affe1
 <li>좋아요 기능 - 좋아요, 좋아요 누른 피드 확인 가능</li>
 https://github.com/dkth1122/React_Project/blob/dcb232ae491bd66ff938fb605fa72db5b91111ec/src/app/heart/page.js
 <br><br>
-<li>미니게임</li>
+<li>미니게임, 랭킹 시스템</li>
+https://github.com/dkth1122/React_Project/blob/3c67f2caf178815c445b008d96f04d7664282de5/src/app/GamePart.js
   
   ![예시 GIF](game.gif)
 
-<li>랭킹 시스템</li>
 </ul>
 <br>
